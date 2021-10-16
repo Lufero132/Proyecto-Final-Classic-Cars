@@ -167,6 +167,29 @@ p{
 }
 /************************************/
 
+/* Diseño del Buscador*/
+.buscador{
+	width: 100%;
+	background: red;
+	margin:auto;
+	
+}
+
+.interfaz{
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+	padding: 1rem;
+}
+
+input[type="search"]{
+	padding:1rem;
+	padding-right:12rem;
+	border:none;
+}
+/**********************************/
+
+
 /* Diseño de la linea con los botones de cada marca*/
 .marcas{
 	background: #f2f2f2;
