@@ -299,7 +299,6 @@ input[type="search"]{
 .modelos{
 	width: 100%;
 	max-width: 1200px;
-	height: 430px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: left;
@@ -354,6 +353,16 @@ input[type="search"]{
 
 }
 /************************************************/
+
+/* Diseño contenido Pagina de cada carro*/
+.vehiculo{
+	width: 100%;
+	max-width: 1200px;
+	justify-content: left;
+	margin: 0 auto;
+}
+
+/******************************************/
 
 	
 /* Diseño del pie de pagina*/
