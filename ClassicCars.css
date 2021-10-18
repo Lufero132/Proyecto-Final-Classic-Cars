@@ -173,6 +173,7 @@ p{
 	width: 100%;
 	height:70vh;
 	background: rgba(0,0,0,0.5);
+	font-family:"Verdana";
 }
 
 .buscador{
@@ -288,6 +289,7 @@ tbody tr td a:hover{
 	flex-wrap: wrap;
 	justify-content: center;
 	margin: 0 auto;
+	
 }
 	
 
@@ -301,6 +303,7 @@ tbody tr td a:hover{
 	text-align: center;
 	transition: all 0.25s;
 	background: #00010A  ;
+	border: 4px solid gray;
 	
 }
 
@@ -311,13 +314,15 @@ tbody tr td a:hover{
 
 .contenido .card img{
 	border-radius:5px;
-	border: 4px solid gray;
 	width:330px;
 	height:220px;
 }
 
 .contenido .card h3{
 	font-weight: 600;
+	font-family:"Verdana";
+	color: gray;
+	
 }
 
  .contenido .card h3:hover{
@@ -329,6 +334,7 @@ tbody tr td a:hover{
 	font-size:  16px;
 	font-weight: 300;
 	color:white;
+	font-family:"Verdana";
 	
 }
 
@@ -353,7 +359,7 @@ tbody tr td a:hover{
 
 .cajas{
 	width:1200px;
-	height:260px;
+	height:270px;
 	border-radius:8px;
 	box-shadow:0 2px 2px rgba(0, 0, 0, 0.2);
 	overflow:hidden;
@@ -361,7 +367,8 @@ tbody tr td a:hover{
 	display: block;
 	padding: 10px;
 	text-align: left;
-	background: #00010A  ;
+	background: #00010A;
+	border: 4px solid #2a2b30;
 }
 
 .cajas img{
@@ -370,13 +377,16 @@ tbody tr td a:hover{
 	width:330px;
 	height:220px;
 	border-radius:5px;
-	border: 4px solid gray;
+	border: 4px solid #f2f2f2;
 	float:left;
 }
 
 .cajas h3{
+	font-size:  20px;
 	padding:0 1rem;
 	font-weight: 600;
+	font-family:"Verdana";
+	color:gray;
 }
 
  .cajas h3:hover{
@@ -388,6 +398,7 @@ tbody tr td a:hover{
 	font-size:  16px;
 	font-weight: 300;
 	color: white;
+	font-family:"Verdana";
 	
 }
 
@@ -417,6 +428,11 @@ tbody tr td a:hover{
 	margin: 0 auto;
 }
 	
+.vehiculo img{
+	border: 4px solid gray;
+	border-radius:5px; 
+	}
+
 
 .cajav{
 	width:1200px;
@@ -429,13 +445,15 @@ tbody tr td a:hover{
 	padding: 10px;
 	text-align: left;
 	background: #00010A  ;
+	border: 4px solid gray;
 }
 
 .cajav p{
 	padding:  0 1rem;
-	font-size:  16px;
+	font-size:  22px;
 	font-weight: 300;
 	color: white;
+	font-family:"Verdana";
 	
 }
 
@@ -458,6 +476,7 @@ tbody tr td a:hover{
 	.titulo h2{
 		color: white;
 		font-size: 55px;
+		font-family:"Verdana";
 	}
 
 .icons ul{
@@ -482,11 +501,12 @@ tbody tr td a:hover{
 		width:80px;
 		height:80px;
 		border-radius:5px;
-		border: 2px solid gray;
+		border: 3px solid gray;
 	}
 	.icons p{
-		font-size: 24px;
+		font-size: 19px;
 		color: white;
+		font-family:"Verdana";
 	}
 	
 /******************************************/
