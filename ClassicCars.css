@@ -356,12 +356,93 @@ input[type="search"]{
 
 /* Diseño contenido Pagina de cada carro*/
 .vehiculo{
+	padding:  0 1rem;
 	width: 100%;
 	max-width: 1200px;
 	justify-content: left;
 	margin: 0 auto;
 }
 
+.modelov{
+	width: 100%;
+	max-width: 1200px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: left;
+	margin: 0 auto;
+}
+	
+
+.cajav{
+	width:1200px;
+	height:260px;
+	border-radius:8px;
+	box-shadow:0 2px 2px rgba(0, 0, 0, 0.2);
+	overflow:hidden;
+	margin: 20px;
+	display: block;
+	padding: 10px;
+	text-align: left;
+	background: #00010A  ;
+}
+
+.cajav p{
+	padding:  0 1rem;
+	font-size:  16px;
+	font-weight: 300;
+	color: white;
+	
+}
+
+.titulo ul{
+	width: 90%;
+	max-width: 1000px;
+	justify-content: left;
+	margin: 0 auto;
+	list-style: none;
+}
+	.titulo ul li{
+		display: inline-block;
+	}
+	
+		.titulo ul li a{
+			display: block;
+			padding: 0 1rem;	
+		}
+		
+	.titulo h2{
+		color: white;
+	}
+
+.icons ul{
+	width: 90%;
+	max-width: 900px;
+	justify-content: left;
+	margin: 0 auto;
+	list-style: none;
+	}
+
+	.icons ul li{
+		display: inline-block;
+	}
+	
+		.icons ul li a{
+			display: block;
+			margin-left: 3rem;
+			padding: 2rem 1rem;	
+		}
+
+	.icons img{
+		width:80px;
+		height:80px;
+		border-radius:5px;
+		border: 2px solid gray;
+	}
+	.icons p{
+		font-size: 16px;
+		color: white;
+	}
+	
 /******************************************/
 
 	
