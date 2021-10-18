@@ -168,11 +168,17 @@ p{
 /************************************/
 
 /* Diseño del Buscador*/
+
+.content{
+	width: 100%;
+	height:70vh;
+	background: rgba(0,0,0,0.5);
+}
+
 .buscador{
 	width: 100%;
 	background: red;
 	margin:auto;
-
 }
 
 .interfaz{
@@ -186,6 +192,45 @@ input[type="search"]{
 	padding:1rem;
 	padding-right:12rem;
 	border:none;
+}
+
+.search{
+	width:90%;
+	max-width:1000px;
+	margin: auto;
+	background: #fff;
+	padding:0 10px;
+	padding-bottom: 5px;
+	max-height: 80%;
+	overflow-x: hidden;
+	/*display: none;*/
+}
+
+.search-table{
+	width:100%;
+	
+}
+
+tbody tr td{
+	width:100%;
+}
+
+tbody tr td a{
+	text-decoration:none;
+	font-size:18px;
+	color: #737373;
+	display:block;
+	width:100%;
+	height:100%;
+	padding:20px 0;
+	padding-left: 20px;
+	border: 2px solid #fff;
+	
+}
+
+tbody tr td a:hover{
+
+	border:2px solid gray;
 }
 /**********************************/
 
